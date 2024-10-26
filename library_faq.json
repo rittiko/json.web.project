@@ -1,138 +1,19 @@
 {
+    "professor": {
+      "name": "กานดา สายแก้ว",
+      "courses": ["WebApp", "Advance Com", "Database"],
+      "university": "มหาวิทยาลัยขอนแก่น",
+      "department": "วิศวกรรมศาสตร์คอมพิวเตอร์"
+    },
     "library_information": {
-        "opening_hours": {
-            "normal": {
-                "monday_to_friday": "08:30-20:00",
-                "saturday_sunday": "09:00-17:00",
-                "note": "Closed on public holidays"
-            },
-            "24_hours": {
-                "duration": "7-29 Oct 67 (Exam period)",
-                "rooms": [
-                    "1201",
-                    "1202",
-                    "1301",
-                    "Meeting Room 1302"
-                ],
-                "cleaning_time": "08:00-11:00",
-                "access_gate": "Gate 1 only from 20:00-08:00"
-            }
+      "name": "สำนักหอสมุด มหาวิทยาลัยขอนแก่น",
+      "opening_hours": {
+        "normal": {
+          "weekdays": "08:30-20:00",
+          "weekends": "09:00-17:00"
         },
-        "access_policy": {
-            "required_id": "Student card or KKU virtual card",
-            "public_access": {
-                "id": "Citizen ID",
-                "fees": {
-                    "daily": 20,
-                    "monthly": 120,
-                    "yearly": 400
-                }
-            }
-        },
-        "loan_policy": {
-            "borrow_limit": 7,
-            "loan_duration_days": 15,
-            "late_fee_per_day": 5,
-            "deposit": 2500,
-            "faculty_staff_students": {
-                "borrow_limit": 50,
-                "loan_duration_days": 30,
-                "renewal": "Unlimited if no reservation"
-            },
-            "device_borrowing": {
-                "available_devices": [
-                    "iPad",
-                    "Power strips"
-                ],
-                "loan_duration_days": 1,
-                "late_fee": {
-                    "electronic": 50,
-                    "non_electronic": 20
-                }
-            }
-        }
-    },
-    "services": {
-        "mini_production_house": {
-            "rooms": [
-                "2301 A",
-                "2301 B"
-            ],
-            "equipment": [
-                "21.5 inch monitor",
-                "LED studio lights with green screen",
-                "Sony headphones",
-                "Webcam with tripod",
-                "USB condenser microphone",
-                "UGREEN HDMI Cable (3m)",
-                "Laptop"
-            ],
-            "booking": "https://kku.world/miniproduc2024",
-            "contact": {
-                "email": "yupdua@kku.ac.th",
-                "phone": "093-5922556"
-            }
-        },
-        "ai_clinic": {
-            "schedule": {
-                "monday": "10:00-12:00",
-                "tuesday_to_thursday": "14:00-16:00",
-                "friday": "10:00-12:00"
-            },
-            "location": "Group meeting room, Building 1, Floor 3"
-        },
-        "chatgpt4_service": {
-            "registration": "https://kku.world/chatgpt4",
-            "location": "Room 3202, 2nd Floor, Information Center"
-        },
-        "inter_library_loan": {
-            "description": "Borrow resources from other libraries",
-            "form": "https://kku.world/interlibraryloan",
-            "contacts": [
-                {
-                    "phone": "0979322557",
-                    "role": "Reference"
-                },
-                {
-                    "phone": "0935922556",
-                    "role": "Urgent inquiries"
-                }
-            ]
-        }
-    },
-    "member_registration": {
-        "types": {
-            "borrower": {
-                "alumni_and_retirees": {
-                    "borrow_limit": 7,
-                    "loan_duration_days": 15,
-                    "late_fee_per_day": 5,
-                    "deposit": 2500
-                },
-                "general_public": {
-                    "membership_fee": 1000,
-                    "deposit": 2500
-                }
-            },
-            "non_borrower": {
-                "daily_fee": 20,
-                "monthly_fee": 120,
-                "yearly_fee": 400
-            }
-        }
-    },
-    "turnitin_service": {
-        "student_access": {
-            "instructions_video": "https://youtu.be/yxNFbD5zWi4",
-            "class_id_form": "http://bit.ly/turnitin-s"
-        },
-        "faculty_access": {
-            "request_form": "https://kku.world/iqd1g"
-        }
-    },
-    "contact_information": {
-        "address": "Central Library, Khon Kaen University, 123 Mittraphap Rd., Khon Kaen 40002",
-        "phone": "093-5922556",
-        "facebook": "https://www.facebook.com/KKULib"
+        "holiday_exception": "ปิดในวันหยุดนักขัตฤกษ์"
+      }
     }
-}
+  }
+  
